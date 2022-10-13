@@ -44,10 +44,10 @@ print("Задача №2 Площадь прямоугольного треуг�
 
 //3. * Пользователь вводит сумму вклада в банк и годовой процент. Найти сумму вклада через 5 лет.
 
-var summ_vklad: Double = 10000
-var percent_per_year: Double = 7
-var years: Double = 10
+var deposit: Double = 10000
+var percent_per_year: Double = 15
+var years: Double = 5
 
-var result = ((summ_vklad * percent_per_year * years) / 100) + summ_vklad
+var result = ((deposit * percent_per_year * years) / 100) + deposit
 
-print(result)
+print("Задача №3 Сумма вклада через 5 лет с введенными данными составляет: \(result) рублей")
