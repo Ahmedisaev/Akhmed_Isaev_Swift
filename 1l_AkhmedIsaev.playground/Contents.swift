@@ -40,9 +40,9 @@ var sqrt_hypoyenuse = sqrt(pow_hypotenuse)
 var area_of_triangle = 0.5 * leg_1 * leg_2
 var perimeter = leg_1 + leg_2 + sqrt_hypoyenuse
 
-print("Задача №2 Площадь прямоугольного треугольника равна \(area_of_triangle)")
-print("Гипотенуза равна \(sqrt_hypoyenuse)")
-print("Периметр равен \(perimeter)")
+print("Задача №2 Площадь прямоугольного треугольника равна \(area_of_triangle) квадратных сантиметров")
+print("Гипотенуза равна \(sqrt_hypoyenuse) сантиметров")
+print("Периметр равен \(perimeter) сантиметров")
 
 
 //3. * Пользователь вводит сумму вклада в банк и годовой процент. Найти сумму вклада через 5 лет.
